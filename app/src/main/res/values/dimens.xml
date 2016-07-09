@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Navigation Drawer-->
+    <dimen name="navigation_drawer_width">304dp</dimen>
+    <dimen name="navigation_drawer_header_height">168dp</dimen>
+
+    <!--Baseline-->
+    <dimen name="baseline_x0">0dp</dimen>
+    <dimen name="baseline_x0.25">2dp</dimen>
+    <dimen name="baseline_x0.5">4dp</dimen>
+    <dimen name="baseline_x1">8dp</dimen>
+    <dimen name="baseline_x1.25">10dp</dimen>
+    <dimen name="baseline_x1.5">12dp</dimen>
+    <dimen name="baseline_x2">16dp</dimen>
+    <dimen name="baseline_x2.5">20dp</dimen>
+    <dimen name="baseline_x3">24dp</dimen>
+    <dimen name="baseline_x3.5">28dp</dimen>
+    <dimen name="baseline_x4">32dp</dimen>
+    <dimen name="baseline_x5">40dp</dimen>
+    <dimen name="baseline_x5.5">44dp</dimen>
+    <dimen name="baseline_x6">48dp</dimen>
+    <dimen name="baseline_x7">56dp</dimen>
+    <dimen name="baseline_x8">64dp</dimen>
+    <dimen name="baseline_x9">72dp</dimen>
+    <dimen name="baseline_x10">80dp</dimen>
+    <dimen name="baseline_x11">88dp</dimen>
+    <dimen name="baseline_x12">96dp</dimen>
+    <dimen name="baseline_x13">104dp</dimen>
+    <dimen name="baseline_x14">112dp</dimen>
+    <dimen name="baseline_x15">120dp</dimen>
+    <dimen name="baseline_x16">120dp</dimen>
+    <dimen name="baseline_x17">136dp</dimen>
+    <dimen name="baseline_x18">144dp</dimen>
+    <dimen name="baseline_x19">152dp</dimen>
+    <dimen name="baseline_x20">160dp</dimen>
+    <dimen name="baseline_x30">240dp</dimen>
+
+    <!--Cardview-->
+    <dimen name="cardview_image_side_length">@dimen/baseline_x9</dimen>
+    <dimen name="cardview_image_padding">@dimen/baseline_x2</dimen>
+    <dimen name="cardview_min_height_default">@dimen/baseline_x9</dimen>
+    <dimen name="cardview_min_height_extended">@dimen/baseline_x11</dimen>
+
+    <!--Etc-->
+    <dimen name="default_height_button">@dimen/baseline_x7</dimen>
+    <dimen name="cardview_footer_height">@dimen/baseline_x15</dimen>
+
+</resources>

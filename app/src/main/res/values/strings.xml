@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HSK4 Dictionary</string>
+    <string name="card_search_label_text">ID값을 입력하세요</string>
+    <string name="card_search_button_text">전송</string>
 </resources>

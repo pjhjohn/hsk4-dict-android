@@ -40,7 +40,11 @@ public class MainActivity extends Activity {
                                 card.meaning
                             ))
                         .show();
-                });
+                },
+                error -> {
+                    error.printStackTrace();
+                }
+            );
         });
     }
 }

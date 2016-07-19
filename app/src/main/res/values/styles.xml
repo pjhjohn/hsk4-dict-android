@@ -2,6 +2,7 @@
 <resources>
     <style name="Playting.Theme.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/transparent</item>
-        <item name="android:textColorHint">#FFF</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:textColorHint">#AAA</item>
     </style>
 </resources>

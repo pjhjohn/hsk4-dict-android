@@ -16,11 +16,13 @@
         android:theme="@style/Playting.Theme.Base"
         android:screenOrientation="portrait">
 
-        <activity android:name="com.hsk4dictionary.android.activity.MainActivity">
+        <activity android:name="com.hsk4dictionary.android.activity.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name="com.hsk4dictionary.android.activity.MainActivity">
         </activity>
     </application>
 </manifest>

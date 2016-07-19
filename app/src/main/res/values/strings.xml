@@ -2,4 +2,11 @@
     <string name="app_name">HSK4 Dictionary</string>
     <string name="card_search_label_text">ID값을 입력하세요</string>
     <string name="card_search_button_text">전송</string>
+    <string name="card_item_search_text">검색</string>
+    <string name="dialog_search_positive">검색</string>
+    <string name="dialog_search_negative">취소</string>
+    <string name="menu_search">책갈피</string>
+    <string name="menu_github">소스코드</string>
+    <string name="menu_exit">끝내기</string>
+    <string name="menu_hsk_words">단어장</string>
 </resources>

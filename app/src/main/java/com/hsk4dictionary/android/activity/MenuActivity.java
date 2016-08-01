@@ -1,25 +1,16 @@
 package com.hsk4dictionary.android.activity;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.hsk4dictionary.android.R;
-import com.hsk4dictionary.support.opensource.retrofit.RestfulAdapter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
 
 public class MenuActivity extends Activity {
 
@@ -38,9 +29,7 @@ public class MenuActivity extends Activity {
 
         mMenuSearch.setOnClickListener(v -> this.startActivity(new Intent(this, MainActivity.class)));
 
-        mMenuBookMark.setOnClickListener(v -> {
-            // Go to BookMarkActivity
-        });
+        mMenuBookMark.setOnClickListener(v -> this.startActivity(new Intent(this, BookmarkActivity.class)));
 
         mMenuGitHub.setOnClickListener(v -> {
             String url = "https://github.com/pjhjohn/hsk4-dict-android";

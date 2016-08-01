@@ -22,7 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity android:name="com.hsk4dictionary.android.activity.MainActivity">
+        </activity>
+
+        <activity android:name="com.hsk4dictionary.android.activity.BookmarkActivity">
         </activity>
     </application>
 </manifest>

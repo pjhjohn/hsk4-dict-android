@@ -29,11 +29,10 @@ android {
 dependencies {
     /* Import File-Hierachy Libraries */
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    //noinspection GradleCompatible
+    /* ReclyclerView*/
+    compile 'com.android.support:support-v4:21.0.0'
     compile 'com.android.support:cardview-v7:21.0.+'
-    //noinspection GradleCompatible
     compile 'com.android.support:recyclerview-v7:21.0.+'
-
     /* Unit Test */
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'

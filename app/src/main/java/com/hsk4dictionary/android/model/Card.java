@@ -10,4 +10,11 @@ public class Card {
     public String meaning;
     public String created_at;
     public String updated_at;
+
+    public Card(String word, String pronunciation, String word_type, String meaning) {
+        this.word = word;
+        this.pronunciation = pronunciation;
+        this.word_type = word_type;
+        this.meaning = meaning;
+    }
 }

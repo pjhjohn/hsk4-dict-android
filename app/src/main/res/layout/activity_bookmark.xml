@@ -5,14 +5,3 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:scrollbars="vertical"/>
-    <!--<Button-->
-        <!--android:id="@+id/bookmark_1"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="0dp"-->
-        <!--android:layout_weight="0.2"-->
-        <!--android:text=""-->
-        <!--android:textSize="40sp"-->
-        <!--android:textColor="@color/white"-->
-        <!--android:gravity="center"-->
-        <!--android:background="@color/md_indigo_400"-->
-        <!--android:elevation="8dp"/>-->
